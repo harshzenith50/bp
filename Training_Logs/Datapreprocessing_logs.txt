@@ -1,0 +1,20 @@
+
+2021-09-09/04:09:53		Entered the encode_categorical_columns method of the Preprocessor class
+
+2021-09-09/04:09:53		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+
+2021-09-09/04:15:00		Entered the encode_categorical_columns method of the Preprocessor class
+
+2021-09-09/04:15:00		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+
+2021-09-10/19:21:23		Entered the encode_categorical_columns method of the Preprocessor class
+
+2021-09-10/19:21:23		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+
+2021-12-06/22:42:28		Entered the encode_categorical_columns method of the Preprocessor class
+
+2021-12-06/22:42:28		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+
+2021-12-06/22:47:01		Entered the encode_categorical_columns method of the Preprocessor class
+
+2021-12-06/22:47:01		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class

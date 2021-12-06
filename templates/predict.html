@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel="stylesheet" href="https://ineuron.ai/">
+    <link href="https://ineuron.ai/" rel="stylesheet" integrity="https://ineuron.ai/" crossorigin="anonymous">
+</head>
+<body>
+    <section>
+        <div class="side">
+            <img src="{{url_for('static', filename='backorder.png')}}" width="326px" height="154px">
+            <h2>Project: Back Order Classification Project</h2>
+            <h2>Using Machine Learning, Python, Flask And Cassandra</h2>
+
+            <h2>Team Members Name : </h2>
+            <ul>
+                <li>Harsh Singh</li>
+                <li>Hitarth Dhadhania</li>
+                <li>Lakshya Yadav</li>
+            </ul>
+        </div>
+        <div class="vl"></div>
+        <div class="main results">
+            <h1>Machine Learning Prediction</h1>
+            {% if prediction == 1%}
+            <h2 style="color:red; font-size: x-large;">Yes,Your Product is in Back-Order</h2>
+            <span style='font-size:100px;'>&#128542;</span>
+            {% elif prediction == 0%}
+            <h2 style="color:green; font-size: x-large;">No,Your Product is not In Back-Order</h2>
+            <span style='font-size:100px;'>&#128526;</span>
+
+            {% endif %}
+        </div>
+    </section>
+</body>
+</html>
